@@ -33,7 +33,7 @@
 
 # This will be the folder name under /magisk or /cache/magisk
 # This should also be the same as the id in your module.prop to prevent confusion
-MODID=template
+MODID=org.fdroid.fdroid-priv
 
 # Set to true if you need automount
 # Most mods would like it to be enabled
@@ -53,7 +53,9 @@ LATESTARTSERVICE=false
 
 print_modname() {
   ui_print "*******************************"
-  ui_print "     Magisk Module Template    "
+  ui_print "          systemless    "
+  ui_print "  F-Droid Privileged Extension "
+  ui_print "          installer    "
   ui_print "*******************************"
 }
 
@@ -64,14 +66,6 @@ print_modname() {
 # List all directories you want to directly replace in the system
 # By default Magisk will merge your files with the original system
 # Directories listed here however, will be directly mounted to the correspond directory in the system
-
-# This is an example
-REPLACE="
-/system/app/Youtube
-/system/priv-app/SystemUI
-/system/priv-app/Settings
-/system/framework
-"
 
 # Construct your own list here
 REPLACE="

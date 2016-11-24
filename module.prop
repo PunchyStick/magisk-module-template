@@ -1,8 +1,8 @@
-id=template
-name=Template Module
-version=v1
-versionCode=1
-author=topjohnwu
-description=A short description
+id=org.fdroid.fdroid-priv
+name=F-Droid Privileged Extension
+version=2000-magisk_v3
+versionCode=3
+author=PunchyStick
+description=allows the F-Droid store to install/update/remove apps without user interaction or even enabling Unknown sources
 support=http://forum.xda-developers.com/showthread.php?t=3432382
 donate=http://topjohnwu.github.io/donate
